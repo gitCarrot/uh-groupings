@@ -1,5 +1,6 @@
+import { describe, it, expect } from 'vitest';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
-import GroupingsTable from '@/components/table/groupings-table';
+import GroupingsTable from '@/components/table/groupings-table/groupings-table';
 import userEvent from '@testing-library/user-event';
 
 const pageSize = parseInt(process.env.NEXT_PUBLIC_PAGE_SIZE as string);
